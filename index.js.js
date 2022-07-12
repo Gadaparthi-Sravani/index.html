@@ -180,13 +180,4 @@ function serives(){
 	}
 	return false;
 }
-let i=0;
-function bg(){
-	//var img=['C:\Users\AmeerBalu\Desktop\files\images\1.jpg','C:\Users\AmeerBalu\Desktop\files\images\2.jpg','C:\Users\AmeerBalu\Desktop\files\images\3.jpg'];
-	var img=['3.jpg','2.jpg','5.jpg',"1.jpg"];
-	document.getElementById('bg').style.backgroundImage="url("+img[i]+")";
-	alert(i);
-	i=(i+1)%img.length;
-}
-setInterval(bg(),5000000);
 
